@@ -1,0 +1,65 @@
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:clickable="true"
+    android:paddingBottom="1dp"
+    app:ios="false"
+    app:leftSwipe="true"
+    app:swipeEnable="true">
+
+    <RelativeLayout
+        android:id="@+id/Rl_touch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Tv_projectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这个是项目的名字"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/Tv_beginDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="项目开始时间"
+            android:textSize="15sp"
+            android:layout_below="@id/Tv_projectName"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/Tv_recentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="项目最近修改时间"
+            android:textSize="15sp"
+            android:textColor="#ff0000"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Btn_edit"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#ecd50a"
+        android:clickable="true"
+        android:text="编辑"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/Btn_delete"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#EE3B3B"
+        android:text="删除"
+        android:textColor="@android:color/white"/>
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

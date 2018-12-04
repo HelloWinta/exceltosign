@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择标题"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/demo1"/>
+
+            <CheckBox
+                android:id="@+id/Cb_demo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="模版一"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/demo2"/>
+
+            <CheckBox
+                android:id="@+id/Cb_demo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="模版二"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="签名模版"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/demo3"/>
+
+            <CheckBox
+                android:id="@+id/Cb_demo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="模版三"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/demo4"/>
+
+            <CheckBox
+                android:id="@+id/Cb_demo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="模版四"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="导入"
+        android:textSize="40sp"/>
+
+
+
+</LinearLayout>

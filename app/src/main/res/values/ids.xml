@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_result" type="id"></item>
+    <item name="id_zhuxiu" type="id"></item>
+    <item name="id_shigong" type="id"></item>
+    <item name="id_zhijian" type="id"></item>
+    <item name="id_chengben" type="id"></item>
+    <item name="id_shebei" type="id"></item>
+</resources>

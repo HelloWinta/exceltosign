@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:background="@color/backColor">
+
+
+    <!--第一套 -->
+    <LinearLayout
+        android:id="@+id/Ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:text="动设备专业团队+机械分公司"
+                    android:textSize="18sp"
+                    android:textColor="#aa0000"/>
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/colorPrimaryDark"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="2dp"
+            android:background="#aa0000" />
+
+        <EditText
+            android:id="@+id/Et_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:hint="炼油二部焦气回收装置C622A大修质量控指表"
+            android:textColor="#C83232"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+
+    <!--第二套 -->
+    <LinearLayout
+        android:id="@+id/Ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="动设备专业团队+机械分公司"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#aa0000"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="2dp"
+            android:background="#aa0000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="450dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:id="@+id/Et_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:hint="炼油二部焦气回收装置C622A大修质量控指表"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#C83232"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    <include
+        android:id="@+id/tablehead1"
+        layout="@layout/d_tablehead_1"/>
+
+    <include
+        android:id="@+id/tablehead2"
+        layout="@layout/d_tablehead_2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/Lv_main"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/Btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="保存"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

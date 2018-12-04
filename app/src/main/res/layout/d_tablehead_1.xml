@@ -1,0 +1,134 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:paddingTop="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:background="@color/backColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/shape_all"
+        android:ems="1"
+        android:gravity="center"
+        android:text="序号"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:text="工序"
+        android:textSize="18sp"
+        android:background="@drawable/shape_all"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5"
+        android:gravity="center"
+        android:text="检查内容"
+        android:textSize="18sp"
+        android:background="@drawable/shape_all"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="控制点"
+        android:textSize="18sp"
+        android:background="@drawable/shape_all"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="标准"
+        android:textSize="18sp"
+        android:background="@drawable/shape_all"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="数据或结果"
+        android:textSize="18sp"
+        android:background="@drawable/shape_all"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:orientation="vertical"
+        android:background="@drawable/shape_all"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认签字"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/shape_all"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_all">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="主修"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/shape_all"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="施工员"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/shape_all"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="质检员"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/shape_all"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="成本中心"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:background="@drawable/shape_all"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="动设备团队"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:background="@drawable/shape_all"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
